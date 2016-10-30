@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "random.motto"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "random.motto"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "random.motto"
+        }
+    }
+}
