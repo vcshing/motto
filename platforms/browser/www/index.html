@@ -325,27 +325,19 @@
 			
 			
 			listArr=[]
-			/*
 			$.ajax({
 			  type: 'GET',
 			  url: "js/word.json",
 			  data:"",
-			  dataType: "jsonp",
+			  dataType: "json",
 			  success: function(response){
 				listArr=response
 			  },
-			  async:false
-			});
-*/
-			$.ajaxSetup({
-				async: false
-			});
-			$.getJSON("js/word.json", function(response){
-			   //response data are now in the result variable
-			   listArr=response
-			 //  debugger;
+			  async:false,
+			  crossDomain:true
 			});
 
+			
 			
 			var bannerHTML ="";
 			//debugger;
