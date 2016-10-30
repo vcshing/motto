@@ -56,9 +56,9 @@ var app = {
 	
 		  // Set AdMobAds options:
 		  admob.setOptions({
-			publisherId:          "ca-app-pub-3715336230214756/3701593022",  // Required
-			interstitialAdId:	  "ca-app-pub-3715336230214756/5178326221",
-			tappxIdAndroid:       "/120940746/Pub-13008-Android-8657",        // Optional
+			publisherId:          "ca-app-pub-3715336230214756/2532584228",  // Required
+			interstitialAdId:	  "ca-app-pub-3715336230214756/4009317420",
+			tappxIdAndroid:       "/120940746/Pub-13021-Android-4164",        // Optional
 			tappxShare:           0.2  ,
 			 bannerAtTop: false, // set to true, to put banner at top
 			overlap: false, // set to true, to allow banner overlap webview
