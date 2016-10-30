@@ -325,15 +325,25 @@
 			
 			
 			listArr=[]
+			/*
 			$.ajax({
 			  type: 'GET',
 			  url: "js/word.json",
 			  data:"",
-			  dataType: "json",
+			  dataType: "jsonp",
 			  success: function(response){
 				listArr=response
 			  },
 			  async:false
+			});
+*/
+			$.ajaxSetup({
+				async: false
+			});
+			$.getJSON("js/word.json", function(response){
+			   //response data are now in the result variable
+			   listArr=response
+			 //  debugger;
 			});
 
 			
@@ -344,7 +354,7 @@
 			//alert(listArr.content.length);
 			//debugger;
 			
-			if(typeof(listArr.content.length)!=undefined){
+			if(typeof(listArr.content)!=undefined){
 				randomMottoNum = new randomGenerator(0, listArr.content.length-1);
 				for (i = 0; i < listArr.content.length; i++) { 
 					bgimg++;
